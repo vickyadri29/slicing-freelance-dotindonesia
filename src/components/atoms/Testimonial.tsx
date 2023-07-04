@@ -12,8 +12,8 @@ const Testimonial = () => {
             <Image src={img_url} alt="profile" className="shrink-0" />
             <div className="flex flex-col gap-1">
               <div className="flex items-center gap-1">
-                <h3 className="font-semibold">{name}</h3>
-                <span>|</span>
+                <h3 className="font-semibold text-primary-black">{name}</h3>
+                <span className="text-gray-400">|</span>
                 <div className="mb-[1px]">
                   <Image src={star} alt="star icon" />
                 </div>
