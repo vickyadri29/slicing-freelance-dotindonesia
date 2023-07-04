@@ -6,7 +6,7 @@ import Spesification from "../atoms/Spesification";
 
 const AnotherStudioCard = () => {
   return (
-    <div className="max-w-[1470px] mx-auto mt-20 p-5 flex flex-col gap-4">
+    <div className="max-w-[1470px] mx-auto mt-20 mb-5 p-5 flex flex-col gap-4">
       <h2 className="text-2xl text-primary-black font-semibold">
         Desain Lainnya oleh Studio SAe
       </h2>
@@ -16,7 +16,9 @@ const AnotherStudioCard = () => {
             key={id}
             className="border border-[#E6E6E6] rounded-lg p-5 flex flex-col gap-3"
           >
-            <Image src={img_url} alt="image data" />
+            <div className="flex justify-center">
+              <Image src={img_url} alt="image data" />
+            </div>
             <div className="flex items-center gap-5">
               <h3 className="text-xl text-primary-black font-bold">{title}</h3>
               <span className="px-3 py-2 text-sm bg-[#F1F1F1] rounded-2xl">
