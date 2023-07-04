@@ -2,6 +2,7 @@ import React from "react";
 import HomeCard from ".././card/HomeCard";
 import { dataHomeView } from "../../utils/data";
 import BookingCard from ".././card/BookingCard";
+import Testimonial from "../atoms/Testimonial";
 
 const HomeView = () => {
   return (
@@ -11,7 +12,7 @@ const HomeView = () => {
           <h2 className="text-2xl text-primary-black font-semibold">
             Tampilan Rumah
           </h2>
-          <div className="grid grid-cols-3 gap-10">
+          <div className="grid grid-cols-3 gap-3">
             {dataHomeView.map((data) => {
               return (
                 // <div className="grid grid-col-3 grid-row-2">
@@ -24,6 +25,7 @@ const HomeView = () => {
 
         <div>
           <BookingCard />
+          <Testimonial />
         </div>
       </div>
     </div>

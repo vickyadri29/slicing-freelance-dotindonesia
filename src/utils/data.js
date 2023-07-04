@@ -11,6 +11,9 @@ import buildAreaIcon from "../assets/icons/building-area.svg";
 import stairsIcon from "../assets/icons/stairs.svg";
 import bedroomIcon from "../assets/icons/bedroom.svg";
 
+// Import image and icons data testimonial
+import profileIsEmpty from "../assets/images/account-cirlce.svg";
+
 export const navbarList = [
   {
     id: 0,
@@ -91,5 +94,29 @@ export const dataSpesification = [
     icon_url: bedroomIcon,
     title: "Kamar Tidur",
     desc: 4,
+  },
+];
+
+export const dataTestimonial = [
+  {
+    id: 0,
+    image_url: profileIsEmpty,
+    name: "Budi Setiadi",
+    review: 4.5,
+    desc: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun",
+  },
+  {
+    id: 1,
+    image_url: profileIsEmpty,
+    name: "Budi Setiadi",
+    review: 4.5,
+    desc: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun",
+  },
+  {
+    id: 2,
+    image_url: profileIsEmpty,
+    name: "Budi Setiadi",
+    review: 4.5,
+    desc: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun",
   },
 ];
