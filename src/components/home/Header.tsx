@@ -11,12 +11,12 @@ const Header = () => {
         <div className="flex items-center justify-between py-5">
           <Image src={logo} alt="logo" />
           <nav>
-            <ul className="flex items-center gap-7">
+            <ul className="flex items-center gap-8">
               {navbarList.map(({ id, name, showDropdown }) => (
                 <li
                   key={id}
-                  className={`flex items-center gap-1 font-semibold ${
-                    id === 1 ? "text-primary-red" : "text-black"
+                  className={`flex items-center gap-1 font-semibold cursor-pointer  ${
+                    id === 1 ? "text-primary-red hover:text-red-600" : "text-black hover:text-gray-700"
                   }`}
                 >
                   {name}{" "}
