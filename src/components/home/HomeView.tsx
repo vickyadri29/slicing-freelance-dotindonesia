@@ -6,7 +6,7 @@ import Testimonial from "../atoms/Testimonial";
 
 const HomeView = () => {
   return (
-    <div className="max-w-7xl mx-auto p-5 my-5">
+    <div className="max-w-[1470px] mx-auto p-5 my-5">
       <div className="flex gap-10 justify-between">
         <div className="flex flex-col gap-4">
           <h2 className="text-2xl text-primary-black font-semibold">

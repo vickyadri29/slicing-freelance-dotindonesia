@@ -8,7 +8,7 @@ import imageHome from "../../assets/images/image-home.png";
 const HeaderContent = () => {
   return (
     <div className="my-5">
-      <div className="max-w-7xl m-auto p-5">
+      <div className="max-w-[1470px] m-auto p-5">
         <div className="flex items-center gap-3">
           <h2 className="font-semibold text-primary-red text-sm">Home</h2>
           <Image src={arrowRightIcon} alt="arrow right" />
@@ -23,7 +23,7 @@ const HeaderContent = () => {
       </div>
       <div className="relative">
         <div className="absolute w-full top-[45%] z-10">
-          <div className="flex justify-between items-center w-full max-w-7xl m-auto">
+          <div className="flex justify-between items-center w-full max-w-[1470px] m-auto">
             <Image src={arrowRightBgIcon} alt="image home" />
             <Image src={arrowLeftBgIcon} alt="image home" />
           </div>

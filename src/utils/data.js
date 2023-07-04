@@ -14,6 +14,12 @@ import bedroomIcon from "../assets/icons/bedroom.svg";
 // Import image and icons data testimonial
 import profileIsEmpty from "../assets/images/account-cirlce.svg";
 
+// Import images home card
+import anotherCard1 from "../assets/images/another-desain1.png";
+import anotherCard2 from "../assets/images/another-desain2.png";
+import anotherCard3 from "../assets/images/another-desain3.png";
+import anotherCard4 from "../assets/images/another-desain4.png";
+
 export const navbarList = [
   {
     id: 0,
@@ -118,5 +124,32 @@ export const dataTestimonial = [
     name: "Budi Setiadi",
     review: 4.5,
     desc: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun",
+  },
+];
+
+export const dataAnotherStudioCard = [
+  {
+    id: 0,
+    img_url: anotherCard1,
+    title: "Omah Apik 1",
+    name: "Scandinavian",
+  },
+  {
+    id: 1,
+    img_url: anotherCard2,
+    title: "Omah Apik 2",
+    name: "Scandinavian",
+  },
+  {
+    id: 2,
+    img_url: anotherCard3,
+    title: "Omah Apik 3",
+    name: "Scandinavian",
+  },
+  {
+    id: 3,
+    img_url: anotherCard4,
+    title: "Omah Apik 4",
+    name: "Scandinavian",
   },
 ];

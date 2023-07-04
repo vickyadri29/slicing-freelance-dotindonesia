@@ -7,7 +7,7 @@ import { navbarList } from "../../utils/data";
 const Header = () => {
   return (
     <header className="sticky top-0 bg-white z-50">
-      <div className="max-w-7xl m-auto p-5">
+      <div className="max-w-[1470px] m-auto p-5">
         <div className="flex items-center justify-between py-5">
           <Image src={logo} alt="logo" />
           <nav>
