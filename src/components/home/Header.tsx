@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../assets/icons/logo.svg";
+import logo from "../../assets/icons/logo.svg";
 import Image from "next/image";
-import dropDownIcon from "../assets/icons/dropdown.svg";
-import { navbarList } from "../utils/data";
+import dropDownIcon from "../../assets/icons/dropdown.svg";
+import { navbarList } from "../../utils/data";
 
 const Header = () => {
   return (
