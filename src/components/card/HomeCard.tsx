@@ -11,7 +11,7 @@ interface HomeViewProps {
 const HomeCard: NextPage<HomeViewProps> = (data) => {
   return (
     <div className="flex">
-      <div className="flex flex-col gap-5 p-4 border border-[#E6E6E6] rounded-lg">
+      <div className="flex flex-col gap-5 p-4 border border-[#E6E6E6] hover:shadow-md cursor-pointer transition-all duration-150 rounded-lg">
         <Image src={data?.img_url} alt="img card" />
         <div className="flex flex-col gap-1">
           <h3 className="text-xl font-bold text-primary-black">{data.title}</h3>

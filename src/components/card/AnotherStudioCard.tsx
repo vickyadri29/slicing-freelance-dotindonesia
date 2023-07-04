@@ -14,7 +14,7 @@ const AnotherStudioCard = () => {
         {dataAnotherStudioCard.map(({ id, img_url, name, title }) => (
           <div
             key={id}
-            className="border border-[#E6E6E6] rounded-lg p-5 flex flex-col gap-3"
+            className="border border-[#E6E6E6] hover:shadow-md cursor-pointer transition-all duration-150 rounded-lg p-5 flex flex-col gap-3"
           >
             <div className="flex justify-center">
               <Image src={img_url} alt="image data" />
