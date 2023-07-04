@@ -22,7 +22,7 @@ const HeaderContent = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute w-full top-[45%] z-50">
+        <div className="absolute w-full top-[45%] z-10">
           <div className="flex justify-between items-center w-full max-w-7xl m-auto">
             <Image src={arrowRightBgIcon} alt="image home" />
             <Image src={arrowLeftBgIcon} alt="image home" />
