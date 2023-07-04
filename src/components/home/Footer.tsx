@@ -75,7 +75,7 @@ const Footer = () => {
       <div className="flex justify-between">
         <div>
           <h3 className="font-semibold">Kredit Bangun Rumah</h3>
-          <ul className="flex flex-row gap-7">
+          <ul className="flex flex-row items-center gap-7">
             {dataCredit.map(({ id, img_url }) => (
               <li key={id} className="cursor-pointer">
                 <Image src={img_url} alt="kredit bangun rumah" />
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="font-semibold">Tunai Via Bank Transfer</h3>
-          <ul className="flex flex-row gap-7">
+          <ul className="flex flex-row items-center gap-7">
             {dataTransferBank.map(({ id, img_url }) => (
               <li key={id} className="cursor-pointer">
                 <Image src={img_url} alt="kredit bangun rumah" />
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="font-semibold">Kartu Kredit</h3>
-          <ul className="flex flex-row gap-7">
+          <ul className="flex flex-row items-center gap-7">
             {dataCreditCard.map(({ id, img_url }) => (
               <li key={id} className="cursor-pointer">
                 <Image src={img_url} alt="kredit bangun rumah" />
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
         <div>
           <h3 className="font-semibold">Rekan Teknologi Tambahan</h3>
-          <ul className="flex flex-row gap-7">
+          <ul className="flex flex-row items-center gap-7">
             {dataTech.map(({ id, img_url }) => (
               <li key={id} className="cursor-pointer">
                 <Image src={img_url} alt="kredit bangun rumah" />
