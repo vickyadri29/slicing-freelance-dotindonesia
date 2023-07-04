@@ -20,6 +20,25 @@ import anotherCard2 from "../assets/images/another-desain2.png";
 import anotherCard3 from "../assets/images/another-desain3.png";
 import anotherCard4 from "../assets/images/another-desain4.png";
 
+// Import social media
+import instagram from "../assets/icons/instagram.svg";
+import facebook from "../assets/icons/facebook.svg";
+import youtube from "../assets/icons/youtube.svg";
+
+// Import Credit
+import bankMandiri from "../assets/images/bank-mandiri.svg";
+import bankBtn from "../assets/images/bank-btn.svg";
+import bankBni from "../assets/images/bank-bni.svg";
+import bankBri from "../assets/images/bank-bri.svg";
+import bankPermata from "../assets/images/bank-permata.svg";
+import visa from "../assets/images/visa.svg";
+import mastercard from "../assets/images/master-card.svg";
+import jcb from "../assets/images/jcb.svg";
+import asco from "../assets/images/asco.svg";
+import inecoSolar from "../assets/images/ineco-solar.svg";
+import adidaya from "../assets/images/adidaya.svg";
+import ase from "../assets/images/ase.svg";
+
 export const navbarList = [
   {
     id: 0,
@@ -106,21 +125,21 @@ export const dataSpesification = [
 export const dataTestimonial = [
   {
     id: 0,
-    image_url: profileIsEmpty,
+    img_url: profileIsEmpty,
     name: "Budi Setiadi",
     review: 4.5,
     desc: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun",
   },
   {
     id: 1,
-    image_url: profileIsEmpty,
+    img_url: profileIsEmpty,
     name: "Budi Setiadi",
     review: 4.5,
     desc: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun",
   },
   {
     id: 2,
-    image_url: profileIsEmpty,
+    img_url: profileIsEmpty,
     name: "Budi Setiadi",
     review: 4.5,
     desc: "Desainnya sangat bagus dan pengirimannya cepat. Terima kasih Sobat Bangun",
@@ -151,5 +170,134 @@ export const dataAnotherStudioCard = [
     img_url: anotherCard4,
     title: "Omah Apik 4",
     name: "Scandinavian",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 0,
+    icon_url: instagram,
+  },
+  {
+    id: 1,
+    icon_url: facebook,
+  },
+  {
+    id: 2,
+    icon_url: youtube,
+  },
+];
+
+export const productAndServices = [
+  {
+    id: 0,
+    name: "Renovasi",
+  },
+  {
+    id: 1,
+    name: "Bangun Rumah",
+  },
+  {
+    id: 2,
+    name: "Layanan Desain",
+  },
+  {
+    id: 3,
+    name: "Teknologi Tambahan",
+  },
+  {
+    id: 4,
+    name: "Beli Material",
+  },
+];
+
+export const aboutUs = [
+  {
+    id: 0,
+    name: "Tentang SobatBangun",
+  },
+  {
+    id: 1,
+    name: "Kebijakan Dan Privasi",
+  },
+  {
+    id: 2,
+    name: "Syarat Dan Ketentuan",
+  },
+  {
+    id: 3,
+    name: "FAQ",
+  },
+  {
+    id: 4,
+    name: "Daftar Menjadi Mitra",
+  },
+];
+
+export const dataCredit = [
+  {
+    id: 0,
+    img_url: bankMandiri,
+  },
+  {
+    id: 1,
+    img_url: bankBtn,
+  },
+  {
+    id: 2,
+    img_url: bankBni,
+  },
+];
+
+export const dataTransferBank = [
+  {
+    id: 0,
+    img_url: bankMandiri,
+  },
+  {
+    id: 1,
+    img_url: bankBri,
+  },
+  {
+    id: 2,
+    img_url: bankBni,
+  },
+  {
+    id: 3,
+    img_url: bankPermata,
+  },
+];
+
+export const dataCreditCard = [
+  {
+    id: 0,
+    img_url: visa,
+  },
+  {
+    id: 1,
+    img_url: mastercard,
+  },
+  {
+    id: 2,
+    img_url: jcb,
+  },
+];
+
+export const dataTech = [
+  {
+    id: 0,
+    img_url: asco,
+  },
+  {
+    id: 1,
+    img_url: inecoSolar,
+  },
+  {
+    id: 2,
+    img_url: adidaya,
+  },
+  {
+    id: 3,
+    img_url: ase,
   },
 ];

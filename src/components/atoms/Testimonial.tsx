@@ -7,9 +7,9 @@ const Testimonial = () => {
     <div className="flex flex-col gap-3 my-5 w-[364px]">
       <h2 className="text-2xl text-primary-black font-semibold">Testimoni</h2>
       <div className="flex flex-col gap-5">
-        {dataTestimonial.map(({ id, name, review, image_url, desc }) => (
+        {dataTestimonial.map(({ id, name, review, img_url, desc }) => (
           <div key={id} className="flex items-start gap-5">
-            <Image src={image_url} alt="profile" className="shrink-0" />
+            <Image src={img_url} alt="profile" className="shrink-0" />
             <div className="flex flex-col gap-1">
               <div className="flex items-center gap-1">
                 <h3 className="font-semibold">{name}</h3>
