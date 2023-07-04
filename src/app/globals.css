@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/scrollbar";
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,5 +23,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+}
 
+.swiper-button-prev, .swiper-button-next {
+  color: white !important;
 }

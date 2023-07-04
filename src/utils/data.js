@@ -5,6 +5,12 @@ import imgCard3 from "../assets/images/img-card3.png";
 import imgCard4 from "../assets/images/img-card4.png";
 import imgCard5 from "../assets/images/img-card5.png";
 
+// Import image card
+import imageHome1 from "../assets/images/image-home1.png";
+import imageHome2 from "../assets/images/image-home2.png";
+import imageHome3 from "../assets/images/image-home3.png";
+import imageHome4 from "../assets/images/image-home4.png";
+
 // Import spesification images
 import dimensionsIcon from "../assets/icons/dimensions.svg";
 import buildAreaIcon from "../assets/icons/building-area.svg";
@@ -59,6 +65,25 @@ export const navbarList = [
     id: 4,
     name: "FAQ",
     showDropdown: false,
+  },
+];
+
+export const dataHomeContent = [
+  {
+    id: 0,
+    img_url: imageHome1,
+  },
+  {
+    id: 1,
+    img_url: imageHome2,
+  },
+  {
+    id: 2,
+    img_url: imageHome3,
+  },
+  {
+    id: 3,
+    img_url: imageHome4,
   },
 ];
 

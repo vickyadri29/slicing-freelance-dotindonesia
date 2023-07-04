@@ -1,9 +1,9 @@
+"use client";
 import Image from "next/image";
-
 import arrowRightIcon from "../../assets/icons/arrow-right.svg";
-import arrowRightBgIcon from "../../assets/icons/arrow-left-bg.svg";
-import arrowLeftBgIcon from "../../assets/icons/arrow-right-bg.svg";
-import imageHome from "../../assets/images/image-home.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { dataHomeContent } from "@/utils/data";
+import { Navigation } from "swiper/modules";
 
 const HeaderContent = () => {
   return (
@@ -22,15 +22,31 @@ const HeaderContent = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute w-full top-[45%] z-10">
+        {/* <div className="">
           <div className="flex justify-between items-center w-full max-w-[1470px] m-auto">
             <Image src={arrowRightBgIcon} alt="image home" />
             <Image src={arrowLeftBgIcon} alt="image home" />
           </div>
-        </div>
-        <div className="flex justify-center w-full">
-          <Image src={imageHome} alt="image home" className="w-full" />
-        </div>
+        </div> */}
+        <Swiper
+          modules={[Navigation]}
+          loop={true}
+          scrollbar={{ draggable: true }}
+          navigation={{ enabled: true }}
+          className=""
+        >
+          {dataHomeContent.map(({ id, img_url }) => (
+            <SwiperSlide key={id}>
+              <div className="bg-white drop-shadow-md rounded-[10px]">
+                <Image
+                  src={img_url}
+                  alt=""
+                  className="w-full h-[40rem] p-1 drop-shadow-md rounded-[10px] object-cover"
+                />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
